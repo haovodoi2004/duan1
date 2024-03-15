@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/sanpham"
+          android:title="Quản lý sản phẩm"
+          android:icon="@drawable/drink"/>
+    <item android:id="@+id/donhang"
+          android:title="Quản lý đơn hàng"
+          android:icon="@drawable/onlineshopping"/>
+    <item android:id="@+id/hoadon"
+          android:title="Quản lý hóa đơn"
+          android:icon="@drawable/bill"/>
+    <item android:id="@+id/nguoidung"
+          android:title="Quản lý người dùng"
+          android:icon="@drawable/group"/>
+    <item android:title="Doanh thu"
+          android:id="@+id/doanhth"
+          android:icon="@drawable/doanhthu"/>
+    <item android:title="Đăng xuất"
+          android:icon="@drawable/back"
+          android:id="@+id/dangxuat"/>
+
+</menu>
