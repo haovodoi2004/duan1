@@ -7,19 +7,19 @@ public class Khachhang {
     public Date date;
     public String name;
     public String address;
-    public String user;
+    public String email;
     public String mk;
     public int phone;
 
     public Khachhang() {
     }
 
-    public Khachhang(int makh, Date date, String name, String address, String user, String mk, int phone) {
+    public Khachhang(int makh, Date date, String name, String address, String email, String mk, int phone) {
         this.makh = makh;
         this.date = date;
         this.name = name;
         this.address = address;
-        this.user = user;
+        this.email = email;
         this.mk = mk;
         this.phone = phone;
     }

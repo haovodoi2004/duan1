@@ -136,6 +136,4 @@
            tools:layout_editor_absoluteY="593dp" />
    </LinearLayout>
 
-
-
 </androidx.appcompat.widget.LinearLayoutCompat>

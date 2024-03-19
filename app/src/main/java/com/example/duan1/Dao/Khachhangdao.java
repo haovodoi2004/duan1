@@ -27,7 +27,7 @@ public class Khachhangdao {
         ContentValues values=new ContentValues();
         values.put("maKH",khachhang.makh+"");
         values.put("NAMSINH",dateFormat.format(khachhang.date));
-        values.put("USERNAME",khachhang.user);
+        values.put("EMAIL",khachhang.email);
         values.put("hoTen",khachhang.name);
         values.put("diaChi",khachhang.address);
         values.put("soDT",khachhang.phone+"");
@@ -38,7 +38,7 @@ public class Khachhangdao {
         SimpleDateFormat dateFormat=new SimpleDateFormat("dd-MM-yyyy");
         ContentValues values=new ContentValues();
         values.put("NAMSINH",dateFormat.format(khachhang.date));
-        values.put("USERNAME",khachhang.user);
+        values.put("EMAIL",khachhang.email);
         values.put("hoTen",khachhang.name);
         values.put("diaChi",khachhang.address);
         values.put("soDT",khachhang.phone+"");
@@ -69,7 +69,7 @@ public class Khachhangdao {
             khachhang.makh=Integer.parseInt(cursor.getString(cursor.getColumnIndex("maKH")));
             khachhang.name=cursor.getString(cursor.getColumnIndex("hoTen"));
             khachhang.address=cursor.getString(cursor.getColumnIndex("diaChi"));
-            khachhang.user=cursor.getString(cursor.getColumnIndex("USERNAME"));
+            khachhang.email=cursor.getString(cursor.getColumnIndex("EMAIL"));
             khachhang.phone=Integer.parseInt(cursor.getString(cursor.getColumnIndex("soDT")));
             khachhang.mk=cursor.getString(cursor.getColumnIndex("matKhau"));
             try {

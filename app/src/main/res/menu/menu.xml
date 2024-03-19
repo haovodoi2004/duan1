@@ -16,8 +16,15 @@
     <item android:title="Doanh thu"
           android:id="@+id/doanhth"
           android:icon="@drawable/doanhthu"/>
+    <item android:id="@+id/lichsu"
+        android:title="lịch sử mua hàng"
+        android:icon="@drawable/management"/>
     <item android:title="Đăng xuất"
           android:icon="@drawable/back"
           android:id="@+id/dangxuat"/>
+    <item android:title="Đăng xuất"
+        android:icon="@drawable/user"
+        android:id="@+id/canhan"/>
+
 
 </menu>
